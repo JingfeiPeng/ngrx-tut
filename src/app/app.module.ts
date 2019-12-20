@@ -17,7 +17,7 @@ import { CreateComponent } from './create/create.component';
   imports: [
     BrowserModule,
     StoreModule.forRoot({
-      tutorialReducer: reducer
+      tutorial: reducer
     })
   ],
   providers: [],

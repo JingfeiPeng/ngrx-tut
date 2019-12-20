@@ -16,7 +16,7 @@ export class ReadComponent implements OnInit {
   tutorials: Observable<Tutorial[]>
   
   constructor(private store: Store<AppState>) {
-    this.tutorials = store.select('tutorialReducer')
+    this.tutorials = store.select('tutorial')
   }
 
   deleteTutorial(index){
